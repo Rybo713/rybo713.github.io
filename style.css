@@ -648,7 +648,8 @@ a:hover {
  color:#819198
 }
 #cssmenu {
-  background: transparent;
+  background-color:#e8a730;
+  background-image:linear-gradient(120deg, #e8a730, #1d97bc)
   width: auto;
 }
 #cssmenu ul {
@@ -731,7 +732,7 @@ a:hover {
   display: none;
 }
 #cssmenu ul li.active a {
-  color: Blue;
+  color: #42c5f4;
 }
 #cssmenu ul li.active a:before {
   width: 100%;
