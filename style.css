@@ -417,7 +417,7 @@ a:hover {
  color:#fff;
  text-align:center;
  background-color:#e8a730;
- background-image:linear-gradient(120deg, #e8a730, #1d97bc)
+ background-image:linear-gradient(120deg, #e8a730, #1d97bc);
   }
 }
 @media screen and (min-width: 64em) {
@@ -648,21 +648,20 @@ a:hover {
  color:#819198
 }
 #cssmenu {
-  background-color:#e8a730;
-  background-image:linear-gradient(120deg, #e8a730, #1d97bc)
-  width: auto;
+  background-image:linear-gradient(120deg, #e8a730, #1d97bc);
+  width: 100%;
 }
 #cssmenu ul {
   list-style: none;
   margin: 0;
   padding: 0;
   line-height: 1;
-  display: block;
+  display: inline-block;
   zoom: 1;
 }
 #cssmenu ul:after {
   content: " ";
-  display: block;
+  display: inline-block;
   font-size: 0;
   height: 0;
   clear: both;
@@ -676,18 +675,15 @@ a:hover {
 #cssmenu.align-right ul li {
   float: right;
 }
-#cssmenu.align-center ul {
-  text-align: center;
+#cssmenu.align-right ul {
+  text-align: right;
 }
 #cssmenu ul li a {
-  color: Black;
+  color: White;
   text-decoration: none;
-  display: block;
-  padding: 15px 25px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 14px;
+  display: inline-block;
+  padding: 20px 25px;
+  font-size: 16px;
   position: relative;
   -webkit-transition: color .25s;
   -moz-transition: color .25s;
@@ -696,31 +692,20 @@ a:hover {
   transition: color .25s;
 }
 #cssmenu ul li a:hover {
-  color: Grey;
+  color: #a5f4ff;
 }
 #cssmenu ul li a:hover:before {
   width: 100%;
 }
-#cssmenu ul li a:after {
-  content: "";
-  display: block;
-  position: absolute;
-  right: -3px;
-  top: 19px;
-  height: 6px;
-  width: 6px;
-  background: Black;
-  opacity: .5;
-}
 #cssmenu ul li a:before {
   content: "";
-  display: block;
+  display: inline-block;
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 3px;
+  height: 2px;
   width: 0;
-  background: #333333;
+  background: White;
   -webkit-transition: width .25s;
   -moz-transition: width .25s;
   -ms-transition: width .25s;
@@ -732,14 +717,14 @@ a:hover {
   display: none;
 }
 #cssmenu ul li.active a {
-  color: #42c5f4;
+  color: White;
 }
 #cssmenu ul li.active a:before {
   width: 100%;
 }
 #cssmenu.align-right li.last > a:after,
 #cssmenu.align-right li:last-child > a:after {
-  display: block;
+  display: inline-block;
 }
 #cssmenu.align-right li:first-child a:after {
   display: none;
@@ -747,14 +732,14 @@ a:hover {
 @media screen and (max-width: 768px) {
   #cssmenu ul li {
     float: none;
-    display: block;
+    display: inline-block;
   }
   #cssmenu ul li a {
     width: 100%;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    border-bottom: 1px solid #fb998c;
+    border-bottom: 2px solid transparent;
   }
   #cssmenu ul li.last > a,
   #cssmenu ul li:last-child > a {
