@@ -424,6 +424,10 @@ a:hover {
   padding:5rem 6rem
  }
 }
+@media (min-width: 992px) {
+  .site-header-nav {
+   float: right; }
+}
 @media screen and (min-width: 42em) and (max-width: 64em) {
  .page-header {
   padding:3rem 4rem
