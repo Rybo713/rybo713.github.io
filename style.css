@@ -648,7 +648,7 @@ a:hover {
  color:#819198
 }
 #cssmenu {
-  background: White;
+  background: transparent;
   width: auto;
 }
 #cssmenu ul {
