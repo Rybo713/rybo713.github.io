@@ -1,6 +1,3 @@
-## Welcome to SkidMarks™!
+## Welcome to my Personal Website 
 
-Feel Free to bookmark this to keep an eye on my project updates
-
-#### SkidMarks 2018
-#### Ryan Wong
+#### Ryan Wong 2018
