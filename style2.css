@@ -43,7 +43,6 @@ body {
 }
 
 #welcome h3 {
-    position: absolute;
     color: #fff;
     font-size: 40px;
     font-weight: 100;
@@ -54,9 +53,9 @@ body {
     background-color: #e3e8ea;
     border: none;
     color: black;
-    padding: 150px 32px;
+    padding: 50px 32px;
     margin-left:150px;
-    margin-top: 300px;
+    margin-top: 150px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -95,4 +94,29 @@ body {
 .big-btn {
     width: 200px;
     height: 50px;
+}
+
+#more {
+  background-color: #e3e8ea;
+  position:absolute;
+  width: 200px;
+  border: green;
+  padding: 25px;
+  margin-top: -110px;
+  margin-left: 158px;
+  border-radius: 12px;
+  z-index: 2;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 50px;
+  margin-top: 0px;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  color:#1f2021;
+  background-color:#e3e8ea;
 }
